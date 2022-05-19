@@ -5,18 +5,17 @@ import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="h-[140vh]">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
-  
+
       <main>
-      <section></section>        
+        <section></section>
       </main>
-      
     </div>
   )
 }
